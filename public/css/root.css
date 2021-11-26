@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400&family=Lato:ital,wght@0,100;0,400;0,700;0,900;1,400&display=swap');
+:root {
+    /* Cach dung: 
+    * color: var(--pink);
+    */
+    --pink: #FB2E86;
+    --off_navi_blue: #3F509E;
+    --navi_blue: #151875;
+    --purple: #7E33E0;
+    --pantone_purple: #E0D3F5;
+    --red: #FB2448;
+    --blue: #2F1AC4;
+    --off_blue: #151875;
+    --sky_blue: rgba(243, 249, 255, 1);
+    /* Cach dung: 
+    * font-family: var(--primary-font);
+    */
+    --primary-font: 'Josefin Sans', sans-serif;
+    --secondary-font: 'Lato', sans-serif;
+  }
+  
