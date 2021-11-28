@@ -14,4 +14,5 @@ module.exports.Pages = [
     filename: 'blog.html',
     js: ['blog']
   },
+  
 ];
