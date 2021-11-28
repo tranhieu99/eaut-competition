@@ -13,9 +13,19 @@
 <body>
   <!-- Them header -->
   ${require('../layouts/header.html')}
-  
-  <p>hello from single product</p>
 
+  <!-- Breadcumb -->
+  ${require('../layouts/product_single_layout/breadcrumb.html')}
+  <div class="product-single">
+  <!-- Product single detail -->
+  ${require('../layouts/product_single_layout/product_detail.html')}
+  <!--Product single description-->
+  ${require('../layouts/product_single_layout/product_single_description.html')}
+  <!--Related product-->
+  ${require('../layouts/product_single_layout/related_product.html')}
+  </div>
+
+  ${require('../layouts/before-footer.html')}
 
   ${require('../layouts/footer.html')}
 
