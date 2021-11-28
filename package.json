@@ -1,7 +1,7 @@
 {
-  "name": "webpack-setup-multiple-pages",
+  "name": "eaut-competition",
   "version": "1.0.0",
-  "description": "Multiple Pages Setup with Webpack and apply a template.",
+  "description": "EAUT COMPETITION",
   "scripts": {
     "start": "webpack-dev-server --open --config webpack.dev.js",
     "build": "webpack --config webpack.prod.js",
@@ -37,14 +37,6 @@
     "webpack-merge": "^4.1.4"
   },
   "private": true,
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/huynhsamha/webpack-setup-multiple-pages.git"
-  },
-  "homepage": "https://github.com/huynhsamha/webpack-setup-multiple-pages#readme",
-  "author": "huynhsamha",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/huynhsamha/webpack-setup-multiple-pages/issues"
-  }
+  "author": "EAUT COMPETITION",
+  "license": "MIT"
 }
