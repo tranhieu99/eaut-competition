@@ -5,13 +5,18 @@ module.exports.Pages = [
     js: ['index']
   },
   {
-    template: './views/product-list.html',
-    filename: 'product-list.html',
-    js: ['product-list']
+    template: './views/product_list.html',
+    filename: 'product_list.html',
+    js: ['productList']
   },
   {
     template: './views/blog.html',
     filename: 'blog.html',
     js: ['blog']
+  },
+  {
+    template: './views/single_product.html',
+    filename: 'single_product.html',
+    js: ['singleProduct']
   },
 ];
