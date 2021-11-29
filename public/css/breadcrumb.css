@@ -1,0 +1,19 @@
+.breadcrumb{
+    padding: 100px 0px;
+    background-color: var(--light_pink);
+}
+.breadcrumb__title h1{
+    font-size: 36px;
+    font-weight: bold;
+    color: var(--back);
+}
+.breadcrumb__content {
+    display: flex;
+    margin-top: 10px;
+}
+.breadcrumb__content p {
+    margin: 0px 3px;
+}
+.breadcrumb__content p.active {
+    color: var(--pink);
+}

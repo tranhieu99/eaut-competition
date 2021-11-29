@@ -1,3 +1,203 @@
-p{
-    color: red;
+
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Product Gallery
+
+******************************
+******************************/
+
+/** 1. Product Gallery **/
+.product-single{
+    &__gallery{
+        display: grid;
+        grid-gap: 10px;
+        grid-template-columns: auto;
+        grid-template-areas:
+           'a d'
+           'b d'
+           'c d';
+    }
+    &__detail{
+        padding: 60px 0px;
+        &__wrapper{
+            padding: 10px 10px;
+            box-shadow: 0px 0px 25px 10px #f6f4fd;
+            border-radius: 3px;
+        }
+    }
+    
+    &__info{
+        padding: 50px 0px;
+        &__name{
+            font-size: 32px;
+            margin-bottom: 20px;
+        }
+        &__rating{
+            display: flex;
+            align-items:center;
+            margin-bottom:20px;
+            img{
+                margin-right:7px;
+            }
+        }
+        &__price{
+            display:flex;
+            margin-bottom: 20px;
+            p:first-child{
+                margin-right:15px;
+            }
+            p.discount{
+                color:var(--pink);
+                text-decoration:line-through 2px;
+            }
+        }
+        
+        &__color{
+            margin-bottom: 20px;
+            p:first-child{
+                margin-bottom:10px;
+            }
+            &__des{
+                color:var(--text-grey);
+                font-size:16px;
+            }
+        }
+        &__add-to-cart{
+            margin-bottom: 40px;
+            button{
+                border:none;
+                background:var(--pink);
+                color:#fff;
+                padding:10px 10px;
+                cursor:pointer;
+                transition: var(--global-transition);
+                border-radius: 4px;
+                &:hover{
+                    background: #fff;
+                    color: var(--pink);
+                    i{
+                        color: var(--pink);
+                    }
+                }
+                i{
+                    color: #fff;
+                    margin-right: 2px;
+                    transition: var(--global-transition);
+                }
+            }
+            i.far.fa-heart {
+                font-size: 22px;
+                margin-left: 17px;
+                cursor: pointer;
+                transition: var(--global-transition);
+                &:hover{
+                    color: var(--pink)
+                }
+            }
+        }
+        &__tag{
+            p{
+                margin:20px 0px
+            }
+            p.share span{
+                margin:0px 10px;
+            
+            }
+            p.share span i{
+                font-size:18px;
+                cursor: pointer;
+            }
+        }
+    }
+    /* Description */
+
+    &__description{
+        margin-top: 60px;
+        background: var(--background-grey);
+        padding: 60px 0px;
+        ul.nav.nav-tabs{
+            background:inherit;
+            border:none;
+            li a.active{
+                text-decoration: underline;
+            }
+        }
+        ul.nav.nav-tabs li{
+            margin-right:63px;
+            a{
+                font-size: 23px;
+                &:hover{
+                    color:var(--black);
+                }
+            }
+        }
+        &__tabs{
+            margin-top:40px;
+            h3{
+                font-size:20px;
+                margin-bottom:18px;
+            }
+            p{
+                color:var(--text-grey);
+            }
+        }
+        &__more-details{
+            margin-top:35px;
+            li{
+                margin-bottom: 15px;
+                color: var(--text-grey);
+                i{
+                    color: var(--off_navi_blue);
+                }
+            }
+        }
+    }
+    /* Related Products */
+    &__related{
+        h1 {
+            margin: 50px 0px 29px 0px;
+            font-size: 36px;
+            font-weight: bold;
+        }
+        &__card{
+            a{
+                &:hover{
+                    color:var(--pink);
+                    
+                }
+            }
+            &__detail{
+                display:flex;
+                align-items: flex-start;
+                justify-content: space-between;
+                margin-top: 15px;
+                & > div{
+                    h3{
+                        margin-bottom:7px;
+                    }
+                    p{
+                        font-size: 14px;
+                    }
+                }
+            }
+        }
+    }
 }
+
+ .image-area-a{
+     grid-area: a;
+ }
+ .image-area-b{
+     grid-area: b;
+ }
+ .image-area-c{
+     grid-area: c;
+ }
+ .image-area-d{
+     grid-area: d;
+ }
+ 
