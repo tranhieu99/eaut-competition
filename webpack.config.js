@@ -19,4 +19,9 @@ module.exports.Pages = [
     filename: 'single_product.html',
     js: ['singleProduct']
   },
+  {
+    template: './views/shop_grid_default.html',
+    filename: 'shop_grid_default.html',
+    js: ['shopGridDefault']
+  },
 ];
