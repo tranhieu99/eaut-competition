@@ -24,4 +24,9 @@ module.exports.Pages = [
     filename: 'shop_grid_default.html',
     js: ['shopGridDefault']
   },
+  {
+    template: './views/single_blog.html',
+    filename: 'single_blog.html',
+    js: ['blog']
+  },
 ];

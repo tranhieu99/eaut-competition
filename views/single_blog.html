@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-  <title>Single Product</title>
+  <title>Blog</title>
 
   ${require('../layouts/include/meta.html')}
   ${require('../layouts/include/stylesheet.html')}
@@ -13,18 +13,20 @@
 <body>
   <!-- Them header -->
   ${require('../layouts/header.html')}
-
   <!-- Breadcumb -->
-  ${require('../layouts/product_single_layout/breadcrumb.html')}
-  <div class="product-single">
-  <!-- Product single detail -->
-  ${require('../layouts/product_single_layout/product_detail.html')}
-  <!--Product single description-->
-  ${require('../layouts/product_single_layout/product_single_description.html')}
-  <!--Related product-->
-  ${require('../layouts/product_single_layout/related_product.html')}
+  ${require('../layouts/blog_layout/breadcrumb.html')}
+  <div class="blog-page">
+      <div class="container">
+          <div class="row">
+              <div class="col-md-8 mr-4">
+                ${require('../layouts/blog_layout/blog_content.html')}
+              </div>
+              <div class="col-md-3">
+                ${require('../layouts/blog_layout/blog_sidebar.html')}
+              </div>
+          </div>
+      </div>
   </div>
-
   ${require('../layouts/before-footer.html')}
 
   ${require('../layouts/footer.html')}
