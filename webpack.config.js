@@ -29,4 +29,14 @@ module.exports.Pages = [
     filename: 'single_blog.html',
     js: ['blog']
   },
+  {
+    template: './views/about-us.html',
+    filename: 'about-us.html',
+    js: ['about']
+  },
+  {
+    template: './views/shopping-cart.html',
+    filename: 'shopping-cart.html',
+    js: ['shoppingCart']
+  },
 ];

@@ -17,6 +17,8 @@ module.exports = {
     index: './src/index.js',
     singleProduct: './src/single_product.js',
     productList: './src/product_list.js',
+    about: './src/about-us.js',
+    shoppingCart: './src/shopping-cart.js'
   },
   output: {
     publicPath: '', // prefix path should be '/', for github page please use empty path

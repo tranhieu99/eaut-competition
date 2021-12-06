@@ -1,0 +1,183 @@
+.cart-items{
+    &__item{
+        margin-bottom: 20px;
+        border-bottom: 1px solid #E1E1E4;
+        padding-bottom: 15px;
+        cursor: pointer;
+    }
+    &__header{
+        p{
+            font-size: 20px;
+        }
+    }
+    &__list {
+        margin-top:40px;
+    }
+    &__product{
+        img {
+            width:40%;
+            height: 100px;
+            object-fit: cover;
+            margin-right: 20px;
+        }
+        div {
+            display:flex;
+            flex-direction:column;
+            justify-content: center;
+        
+        }
+        p{
+            font-size:14px;
+            margin:0px 0px 7px 0px;
+        }
+        span{
+            font-size:13px;
+            margin-bottom:5px;
+            color:var(--text-grey);
+        }
+        
+    }
+    &__quantity{
+        div {
+            display: flex;
+            align-items: center;
+            background:#F0EFF2;
+        }
+        button {
+            border:none;
+            background:#E7E7EF;
+            font-size: 14px;
+            cursor:pointer;
+             color:#BEBFC2;
+        }
+        p{
+            color:#BEBFC2;
+            background:#F0EFF2;
+            font-weight:300;
+            font-size:13px;
+            padding:0px 10px;
+        }
+    }
+    &__buttons{
+        button{
+            border:none;
+            background:var(--pink);
+            font-weight:300;
+            color:#fff;
+            padding:10px 10px;
+            cursor:pointer;
+            transition: var(--global-transition);
+            border-radius: 4px;
+            &:hover{
+                background: #fff;
+                color: var(--pink);
+                i{
+                    color: var(--pink);
+                }
+            }
+            i{
+                color: #fff;
+                margin-right: 2px;
+                transition: var(--global-transition);
+            }
+        }
+    }
+}
+
+.shopping-cart {
+    padding: 50px 0px;
+}
+
+.cart-totals
+{
+    h1 {
+        font-size:20px;
+        text-align:center;
+        margin-bottom:30px;
+    }
+    &__row {
+        font-size:16px;
+        margin-bottom:20px;
+        padding-bottom:10px;
+        color:var(--navi_blue);
+        border-bottom: 1px solid #E8E6F1;
+    }
+    &__table {
+        background:#F4F4FC;
+        padding:30px 15px;
+    }
+    &__des {
+        font-size:12px;
+        color:#8A91AB;
+        margin-bottom:25px;
+        i{
+            color: #19d16f;
+            font-size:10px;
+            margin-right: 2px;
+        }
+    }
+    &__button{
+        button {
+            background:#19D16F;
+            border:none;
+            padding:13px 20px;
+            color:#fff;
+            border-radius:3px;
+            cursor:pointer;
+        }
+    }
+}
+
+.calculate-shipping
+{
+    h1 {
+        font-size:20px;
+        text-align:center;
+        margin-bottom:30px;
+    }
+    &__button{
+        button{
+            border:none;
+            background:var(--pink);
+            font-weight:300;
+            color:#fff;
+            padding:10px 10px;
+            cursor:pointer;
+            transition: var(--global-transition);
+            border-radius: 4px;
+            &:hover{
+                background: #fff;
+                color: var(--pink);
+                i{
+                    color: var(--pink);
+                }
+            }
+            i{
+                color: #fff;
+                margin-right: 2px;
+                transition: var(--global-transition);
+            }
+        }
+    }
+    &__input{
+        input{
+            border:none;
+            font-size:17px;
+            font-weight:300;
+            border-bottom:1px solid #C7CEE4;
+            width:100%;
+            padding:5px 10px;
+            margin-bottom:20px;
+            background:transparent;
+            outline:none;
+            &::placeholder{
+                color:#C5CBE3;
+            }
+        }
+    }
+    &__form {
+        background:#F4F4FC;
+        padding:25px 14px;
+        border-radius:4px;
+    }
+}

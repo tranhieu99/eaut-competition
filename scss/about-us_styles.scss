@@ -1,0 +1,116 @@
+.about-contact
+{
+    img{
+        width: 90%;
+        margin:auto;
+        display: block;
+    }
+    h3{
+        font-size:25px;
+        color:var(--black);
+        margin:40px 0px 20px 0px;
+    }
+    p{
+        color: #8A8FB9;
+        font-weight:400;
+        line-height:1.4;
+        margin-bottom:20px;
+    }
+    button{
+        border:none;
+        background: var(--pink);
+        color:#fff;
+        padding:10px 15px;
+        border-radius:4px;
+        transition: var(--global-transition);
+        cursor:pointer;
+        &:hover{
+            background:#fff;
+            color: var(--pink);
+        }
+    }
+}
+
+.about-features
+{
+    h2{
+        font-size:30px;
+        text-align:center;
+        margin:60px 0px 50px 0px;
+    }
+    &__icon img{
+        display:block;
+        margin:0px auto 30px auto;
+    }
+    &__title {
+        font-size:22px;
+        text-align:center;
+        color: var(--navi_blue);
+        margin-bottom:10px;
+    }
+    &__content {
+        text-align:center;
+        font-size:15px;
+        color: #8A8FB9;
+    }
+}
+.client-say{
+    &__item{
+        cursor: pointer;
+        p{
+            text-align:center;
+            margin:auto;
+            width:50%;
+            line-height:1.4;
+            
+        }
+        img {
+            width: 100px;
+            display: block;
+            margin: auto;
+        }
+    }
+    &__title {
+        color: #8A8FB9;
+        font-size:14px;
+        margin-bottom:20px !important;
+    }
+    &__name {
+        margin-top: 20px !important;
+        margin-bottom:2px !important;
+        font-size:22px;
+    }
+}
+
+.slick-active button{
+    background:var(--pink) !important;
+        width:30px !important;
+}
+.slick-dots li button {
+    outline:none;
+    background: #FF75B0;
+    cursor:pointer;
+    border:none;
+    width:20px ;
+    margin-right:3px;
+    height:3px;
+    text-indent: -9999px;
+    overflow:hidden;
+    /* more CSS */
+}
+
+ul.slick-dots {
+    display: flex;
+    justify-content:center;
+    margin:20px 0px 40px 0px;
+}
+.client-say h2{
+    margin:50px 0px 20px 0px;
+    font-size:30px;
+    text-align:center;
+}
+.client-say {
+    background: #FBFBFF;
+    padding: 10px 0px;
+    margin: 50px 0px;
+}
