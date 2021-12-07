@@ -39,4 +39,9 @@ module.exports.Pages = [
     filename: 'shopping-cart.html',
     js: ['shoppingCart']
   },
+  {
+    template: './views/login.html',
+    filename: 'login.html',
+    js: ['login']
+  },
 ];
