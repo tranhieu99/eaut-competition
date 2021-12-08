@@ -28,7 +28,7 @@ p.content {
 
 .send-question {
     background-color: #F8F8FD;
-    padding: 20px 30px;
+    padding: 65px 75px 0px 45px;
 }
 
 .send-question .title {
@@ -41,3 +41,46 @@ p.content {
     color: #1D3178;
 }
 
+.description .header {
+    margin-bottom: 65px;
+}
+
+.description .title {
+    margin-bottom: 15px;
+}
+
+.description .content {
+    margin-bottom: 65px;
+}
+
+.send-question .title {
+    margin-bottom: 115px;
+}
+
+.send-question input.form-control {
+    margin-bottom: 35px;
+}
+
+.send-question .form-control:last-child {
+    margin-top: 45px;
+}
+
+.send-question button.btn.btn-submit {
+    margin-top: 45px;
+    background: #FB2E86;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 17px;
+    cursor: pointer;
+    transition: .5s ease;
+    width: 156px;
+    height: 48px;
+}
+
+.mt-130 {
+    margin-top: 130px;
+}
+
+.mb-90 {
+    margin-bottom: 90px;
+}
