@@ -49,4 +49,9 @@ module.exports.Pages = [
     filename: '404.html',
     js: ['404']
   },
+  {
+    template: './views/faq.html',
+    filename: 'faq.html',
+    js: ['faq']
+  },
 ];
